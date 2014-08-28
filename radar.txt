@@ -1,0 +1,400 @@
+[Techniques]
+cake pattern
+    status: outoffavor
+
+XML-RPC/SOAP
+    status: outoffavor
+
+polyglot modules
+    status: experimental
+
+JS Template Observer
+    status: accepted
+
+"NaN style" JS Components
+    status: accepted
+
+single responsibility
+    status: accepted
+
+"mockist" testing
+    status: accepted
+
+fakes over mocks
+    status: accepted
+
+configuration-as-a-service
+    status: accepted
+
+functional
+    status: accepted
+
+machine learning
+    status: accepted
+
+promises over callbacks
+    status: accepted
+
+branch-by-abstraction
+    status: accepted
+
+feature-flags
+    status: accepted
+
+async-io
+    status: accepted
+
+rdbms
+    status: accepted
+
+containerless
+    status: accepted
+
+design-by-contract
+    status: accepted
+
+automation
+    status: preferred
+
+continuous-delivery
+    status: preferred
+
+TDD (test-first)
+    status: preferred
+
+dependency injection over service locator
+    status: preferred
+
+pair programming
+    status: preferred
+
+[languages and frameworks/libraries]
+mustache
+    status: outoffavor
+
+squire
+    status: outoffavor
+
+play
+    status: outoffavor
+
+jsp
+    status: outoffavor
+
+ojb
+    status: outoffavor
+
+flex
+    status: outoffavor
+
+pl/sql
+    status: outoffavor
+
+joyride js
+    status: outoffavor
+
+sqoop-as-a-library
+    status: outoffavor
+
+hibernate-search
+    status: outoffavor
+
+raw lucene
+    status: outoffavor
+
+struts
+    status: outoffavor
+
+xstream
+    status: outoffavor
+
+xml
+    status: outoffavor
+
+pig
+    status: outoffavor
+
+grails
+    status: outoffavor
+
+perl
+    status: outoffavor
+
+ruby
+    status: outoffavor
+
+java8
+    status: experimental
+
+react
+    status: experimental
+
+finatra
+    status: experimental
+
+angular
+    status: experimental
+
+clojure
+    status: experimental
+
+intro.js
+    status: experimental
+
+weka
+    status: experimental
+
+underscore
+    status: accepted
+
+bootstrap-css
+    status: accepted
+
+handlebars
+    status: accepted
+
+j2se6
+    status: accepted
+
+backbone
+    status: accepted
+
+sinon
+    status: accepted
+
+restclient-js
+    status: accepted
+
+httpobjects
+    status: accepted
+
+hibernate
+    status: accepted
+
+velocity
+    status: accepted
+
+akka
+    status: accepted
+
+groovy
+    status: accepted
+
+spock
+    status: accepted
+
+mockito
+    status: accepted
+
+easymock
+    status: accepted
+
+jetty-as-a-library
+    status: accepted
+
+ObjectiveC
+    status: accepted
+
+mahout
+    status: accepted
+
+coffeescript
+    status: accepted
+
+yammer metrics
+    status: accepted
+
+jsoup
+    status: accepted
+
+eh-cache
+    status: accepted
+
+java7
+    status: accepted
+
+hamcrest-matchers
+    status: accepted
+
+junit
+    status: accepted
+
+scalatest
+    status: accepted
+
+jackson
+    status: accepted
+
+lift-json
+    status: accepted
+
+jquery-ui (datepickers???)
+    status: accepted
+
+springmvc
+    status: accepted
+
+spring (dependency-injection)
+    status: accepted
+
+spring-security
+    status: accepted
+
+python - accepted for tooling
+    status: accepted
+
+jquery (for dom manipulation)
+    status: preferred
+
+qunit
+    status: preferred
+
+require
+    status: preferred
+
+[tool]
+maven2
+    status: outoffavor
+
+perforce
+    status: outoffavor
+
+stash
+    status: experimental
+
+bower
+    status: experimental
+
+selenium
+    status: accepted
+
+docker
+    status: accepted
+
+vagrant
+    status: accepted
+
+github-for-open-source-project-hosting
+    status: accepted
+
+virtualBox
+    status: accepted
+
+graphite
+    status: accepted
+
+kibana
+    status: accepted
+
+taxi
+    status: accepted
+
+ansible
+    status: accepted
+
+configurator
+    status: accepted
+
+ganglia
+    status: accepted
+
+logstash
+    status: accepted
+
+warden
+    status: accepted
+
+jenkins - for CI
+    status: preferred
+
+qunit-mojo
+    status: preferred
+
+jshint
+    status: preferred
+
+nexus
+    status: preferred
+
+jaws
+    status: preferred
+
+maven3
+    status: preferred
+
+simon
+    status: preferred
+
+speedyG for e2e execution in the CD pipeline
+    status: preferred
+
+supervisor
+    status: preferred
+
+git
+    status: preferred
+
+[Platforms (and dbs)]
+solr
+    status: outoffavor
+
+oracle text (aka context)
+    status: outoffavor
+
+mysql
+    status: outoffavor
+
+hadoop map-reduce v1
+    status: outoffavor
+
+appworx
+    status: outoffavor
+
+J2EE (incl. EJB, JNDI, JMS, ServletAPI)
+    status: outoffavor
+
+activemq
+    status: outoffavor
+
+fiorano
+    status: outoffavor
+
+resin
+    status: outoffavor
+
+yarn
+    status: experimental
+
+oracle
+    status: accepted
+
+mongo
+    status: accepted
+
+cassandra
+    status: accepted
+
+hdfs
+    status: accepted
+
+hadoop - for distributed map/reduce
+    status: accepted
+
+flume
+    status: accepted
+
+kestrel
+    status: accepted
+
+nodejs - for tools
+    status: accepted
+
+zookeeper
+    status: accepted
+
+elastic search - for full-text indexing
+    status: preferred
+
+jvm - for production applications
+    status: preferred
+
