@@ -5,8 +5,18 @@ cake pattern
 XML-RPC/SOAP
     status: outoffavor
 
-polyglot modules
+REST (RMM Level 1)
+    status: outoffavor
+
+REST (RMM Level 2)
+    status: accepted
+
+REST (RMM Level 3)
+    status: accepted
+
+more than one (non-test) jvm language in a maven module
     status: experimental
+    tags: polyglot
 
 JS Template Observer
     status: accepted
@@ -14,8 +24,8 @@ JS Template Observer
 "NaN style" JS Components
     status: accepted
 
-single responsibility
-    status: accepted
+single responsibility principle
+    status: preferred
 
 "mockist" testing
     status: accepted
@@ -25,6 +35,10 @@ fakes over mocks
 
 configuration-as-a-service
     status: accepted
+
+object-oriented programming
+    status: accepted
+    tags: oop
 
 functional
     status: accepted
@@ -48,7 +62,10 @@ rdbms
     status: accepted
 
 containerless
-    status: accepted
+    status: preferred
+
+containers
+    status: outoffavor
 
 design-by-contract
     status: accepted
@@ -68,7 +85,18 @@ dependency injection over service locator
 pair programming
     status: preferred
 
-[languages and frameworks/libraries]
+[Languages and Frameworks/Libraries]
+
+XML (for REST representations)
+    status: outoffavor
+
+JSON (for REST representations)
+    status: preferred
+
+lunr
+    status: accepted
+    tags: javascript, full-text search
+
 mustache
     status: outoffavor
 
@@ -116,6 +144,7 @@ pig
 
 grails
     status: outoffavor
+    tags: groovy
 
 perl
     status: outoffavor
@@ -139,19 +168,25 @@ clojure
     status: experimental
 
 intro.js
-    status: experimental
+    status: accepted
 
 weka
     status: experimental
 
+underscore (templating)
+    status: accepted
+    tags: javascript
+
 underscore
     status: accepted
+    tags: javascript
 
 bootstrap-css
     status: accepted
 
 handlebars
     status: accepted
+    tags: templating
 
 j2se6
     status: accepted
@@ -177,17 +212,31 @@ velocity
 akka
     status: accepted
 
-groovy
+groovy-for-testing
     status: accepted
+
+groovy-for-production
+    status: outoffavor
 
 spock
     status: accepted
+    tags: test
+
+jmock
+    status: accepted
+    tags: test
+
+powermock
+    status: outoffavor
+    tags: test
 
 mockito
     status: accepted
+    tags: test
 
 easymock
     status: accepted
+    tags: test
 
 jetty-as-a-library
     status: accepted
@@ -200,6 +249,7 @@ mahout
 
 coffeescript
     status: accepted
+    tags: javascript
 
 yammer metrics
     status: accepted
@@ -215,9 +265,11 @@ java7
 
 hamcrest-matchers
     status: accepted
+    tags: test
 
 junit
     status: accepted
+    tags: test
 
 scalatest
     status: accepted
@@ -228,8 +280,11 @@ jackson
 lift-json
     status: accepted
 
-jquery-ui (datepickers???)
-    status: accepted
+jquery-ui (datepickers)
+    status: outoffavor
+    
+jquery-ui 
+    status: outoffavor
 
 springmvc
     status: accepted
@@ -252,7 +307,18 @@ qunit
 require
     status: preferred
 
-[tool]
+[Tools]
+
+gitlab
+    status: experimental
+
+gitblit
+    status: outoffavor
+
+splunk
+    status: accepted
+    tags: logging, monitoring, alerts, devops
+
 maven2
     status: outoffavor
 
