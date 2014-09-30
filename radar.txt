@@ -1,6 +1,7 @@
 [Techniques]
 cake pattern
     status: outoffavor
+    notes: there are better ways to do "dependency injection"
 
 XML-RPC/SOAP
     status: outoffavor
