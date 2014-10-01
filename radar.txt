@@ -132,14 +132,14 @@ jsp
 
 ojb
     status: outoffavor
-    tags: jvm
+    tags: jvm, data-tier
 
 flex
     status: outoffavor
 
 pl/sql
     status: outoffavor
-    tags: languages
+    tags: languages, data-tier
 
 joyride js
     status: outoffavor
@@ -150,11 +150,11 @@ sqoop-as-a-library
 
 hibernate-search
     status: outoffavor
-    tags: jvm
+    tags: jvm, data-tier
 
 raw lucene
     status: outoffavor
-    tags: jvm
+    tags: jvm, data-tier
 
 struts
     status: outoffavor
@@ -169,7 +169,7 @@ xml
 
 pig
     status: outoffavor
-    tags: jvm, languages
+    tags: jvm, languages, data-tier
 
 grails
     status: outoffavor
@@ -249,7 +249,7 @@ httpobjects
 
 hibernate
     status: accepted
-    tags: jvm
+    tags: jvm, data-tier
 
 velocity
     status: accepted
@@ -443,6 +443,7 @@ configurator
 
 ganglia
     status: accepted
+    tags: data-tier
 
 logstash
     status: accepted
@@ -499,7 +500,7 @@ mysql
 
 hadoop map-reduce v1
     status: outoffavor
-    tags: jvm
+    tags: jvm, data-tier
 
 appworx
     status: outoffavor
@@ -520,26 +521,33 @@ resin
     status: outoffavor
     tags: jvm
 
-yarn
+hadoop map-reduce v2 ("yarn")
     status: experimental
+    tags: data-tier
 
 oracle
     status: accepted
+    tags: data-tier
 
 mongo
     status: accepted
+    tags: data-tier
 
 cassandra
     status: accepted
+    tags: data-tier
 
 hdfs
     status: accepted
+    tags: data-tier
 
 hadoop - for distributed map/reduce
     status: accepted
+    tags: data-tier
 
 flume
     status: accepted
+    tags: data-tier
 
 kestrel
     status: accepted
@@ -553,6 +561,7 @@ zookeeper
 
 elastic search - for full-text indexing
     status: preferred
+    tags:data-tier
 
 jvm - for production applications
     status: preferred
