@@ -5,19 +5,19 @@ cake pattern
 
 XML-RPC/SOAP
     status: outoffavor
-    tags:api
+    tags:network-api
 
 REST (RMM Level 1)
     status: outoffavor
-    tags: REST, api
+    tags: REST, network-api
 
 REST (RMM Level 2)
     status: accepted
-    tags: REST, api
+    tags: REST, network-api
 
 REST (RMM Level 3)
     status: accepted
-    tags: REST, api
+    tags: REST, network-api
 
 more than one (non-test) jvm language in a maven module
     status: experimental
@@ -101,11 +101,11 @@ pair programming
 
 XML (for REST representations)
     status: outoffavor
-    tags: api, REST
+    tags: network-api, REST
 
 JSON (for REST representations)
     status: preferred
-    tags: api, REST
+    tags: network-api, REST
 
 lunr
     status: accepted
@@ -351,7 +351,6 @@ gitblit
 
 splunk
     status: accepted
-    tags: logging, monitoring, alerts, devops
 
 maven2
     status: outoffavor
