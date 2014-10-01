@@ -21,6 +21,7 @@ REST (RMM Level 3)
 
 more than one (non-test) jvm language in a maven module
     status: experimental
+    tags: build, jvm
 
 JS Template Observer
     status: accepted
@@ -73,9 +74,11 @@ rdbms
 
 containerless
     status: preferred
+    tags: jvm
 
 containers
     status: outoffavor
+    tags: jvm
 
 design-by-contract
     status: accepted
@@ -121,13 +124,15 @@ squire
 
 play
     status: outoffavor
+    tags: jvm
 
 jsp
     status: outoffavor
-    tags: templating
+    tags: templating, jvm
 
 ojb
     status: outoffavor
+    tags: jvm
 
 flex
     status: outoffavor
@@ -144,25 +149,31 @@ sqoop-as-a-library
 
 hibernate-search
     status: outoffavor
+    tags: jvm
 
 raw lucene
     status: outoffavor
+    tags: jvm
 
 struts
     status: outoffavor
+    tags: jvm
 
 xstream
     status: outoffavor
+    tags: jvm
 
 xml
     status: outoffavor
 
 pig
     status: outoffavor
+    tags: jvm
 
 grails
     status: outoffavor
     tags: groovy
+    tags: jvm
 
 perl
     status: outoffavor
@@ -172,6 +183,7 @@ ruby
 
 java8
     status: experimental
+    tags: jvm
 
 react
     status: experimental
@@ -179,6 +191,7 @@ react
 
 finatra
     status: experimental
+    tags: jvm
 
 angular
     status: experimental
@@ -186,6 +199,7 @@ angular
 
 clojure
     status: experimental
+    tags: jvm
 
 intro.js
     status: accepted
@@ -212,6 +226,7 @@ handlebars
 
 j2se6
     status: accepted
+    tags: jvm
 
 backbone
     status: accepted
@@ -227,9 +242,11 @@ restclient-js
 
 httpobjects
     status: accepted
+    tags: jvm
 
 hibernate
     status: accepted
+    tags: jvm
 
 velocity
     status: accepted
@@ -237,43 +254,50 @@ velocity
 
 akka
     status: accepted
+    tags: jvm
+
+scala
+    status: accepted
+    tags: jvm
 
 groovy-for-testing
     status: accepted
-    tags: test, groovy
+    tags: test, groovy, jvm
 
 groovy-for-production
     status: outoffavor
-    tags: groovy
+    tags: groovy, jvm
 
 spock
     status: accepted
-    tags: test, groovy
+    tags: test, groovy, jvm
 
 jmock
     status: accepted
-    tags: test
+    tags: test, jvm
 
 powermock
     status: outoffavor
-    tags: test
+    tags: test, jvm
 
 mockito
     status: accepted
-    tags: test
+    tags: test, jvm
 
 easymock
     status: accepted
-    tags: test
+    tags: test, jvm
 
 jetty-as-a-library
     status: accepted
+    tags: jvm
 
 ObjectiveC
     status: accepted
 
 mahout
     status: accepted
+    tags: jvm
 
 coffeescript
     status: accepted
@@ -281,33 +305,39 @@ coffeescript
 
 yammer metrics
     status: accepted
+    tags: jvm
 
 jsoup
     status: accepted
+    tags: jvm
 
 eh-cache
     status: accepted
+    tags: jvm
 
 java7
     status: accepted
+    tags: jvm
 
 hamcrest-matchers
     status: accepted
-    tags: test
+    tags: test, jvm
 
 junit
     status: accepted
-    tags: test
+    tags: test, jvm
 
 scalatest
     status: accepted
-    tags: test
+    tags: test, jvm
 
 jackson
     status: accepted
+    tags: jvm
 
 lift-json
     status: accepted
+    tags: jvm
 
 jquery-ui (datepickers)
     status: outoffavor
@@ -317,12 +347,15 @@ jquery-ui
 
 springmvc
     status: accepted
+    tags: jvm
 
 spring (dependency-injection)
     status: accepted
+    tags: jvm
 
 spring-security
     status: accepted
+    tags: jvm
 
 python - accepted for tooling
     status: accepted
@@ -418,7 +451,7 @@ qunit-mojo
 
 jshint
     status: preferred
-    tags: test, javascript
+    tags: test, javascript, build
 
 nexus
     status: preferred
@@ -457,21 +490,26 @@ mysql
 
 hadoop map-reduce v1
     status: outoffavor
+    tags: jvm
 
 appworx
     status: outoffavor
 
 J2EE (incl. EJB, JNDI, JMS, ServletAPI)
     status: outoffavor
+    tags: jvm
 
 activemq
     status: outoffavor
+    tags: jvm
 
 fiorano
     status: outoffavor
+    tags: jvm
 
 resin
     status: outoffavor
+    tags: jvm
 
 yarn
     status: experimental
@@ -509,4 +547,5 @@ elastic search - for full-text indexing
 
 jvm - for production applications
     status: preferred
+    tags: jvm
 
