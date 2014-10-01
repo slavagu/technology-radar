@@ -5,34 +5,41 @@ cake pattern
 
 XML-RPC/SOAP
     status: outoffavor
+    tags:api
 
 REST (RMM Level 1)
     status: outoffavor
+    tags: REST, api
 
 REST (RMM Level 2)
     status: accepted
+    tags: REST, api
 
 REST (RMM Level 3)
     status: accepted
+    tags: REST, api
 
 more than one (non-test) jvm language in a maven module
     status: experimental
-    tags: polyglot
 
 JS Template Observer
     status: accepted
+    tags: javascript
 
 "NaN style" JS Components
     status: accepted
+    tags: javascript
 
 single responsibility principle
     status: preferred
 
 "mockist" testing
     status: accepted
+    tags: test
 
 fakes over mocks
     status: accepted
+    tags: test
 
 configuration-as-a-service
     status: accepted
@@ -79,6 +86,7 @@ continuous-delivery
 
 TDD (test-first)
     status: preferred
+    tags: test
 
 dependency injection over service locator
     status: preferred
@@ -90,9 +98,11 @@ pair programming
 
 XML (for REST representations)
     status: outoffavor
+    tags: api, REST
 
 JSON (for REST representations)
     status: preferred
+    tags: api, REST
 
 lunr
     status: accepted
@@ -100,15 +110,18 @@ lunr
 
 mustache
     status: outoffavor
+    tags: javascript
 
 squire
     status: outoffavor
+    tags: javascript, test
 
 play
     status: outoffavor
 
 jsp
     status: outoffavor
+    tags: templating
 
 ojb
     status: outoffavor
@@ -121,6 +134,7 @@ pl/sql
 
 joyride js
     status: outoffavor
+    tags: javascript
 
 sqoop-as-a-library
     status: outoffavor
@@ -158,25 +172,28 @@ java8
 
 react
     status: experimental
+    tags: javascript
 
 finatra
     status: experimental
 
 angular
     status: experimental
+    tags: javascript
 
 clojure
     status: experimental
 
 intro.js
     status: accepted
+    tags: javascript
 
 weka
     status: experimental
 
 underscore (templating)
     status: accepted
-    tags: javascript
+    tags: javascript, templating
 
 underscore
     status: accepted
@@ -184,22 +201,26 @@ underscore
 
 bootstrap-css
     status: accepted
+    tags: javascript
 
 handlebars
     status: accepted
-    tags: templating
+    tags: templating, javascript
 
 j2se6
     status: accepted
 
 backbone
     status: accepted
+    tags: javascript
 
 sinon
     status: accepted
+    tags: javascript, test
 
 restclient-js
     status: accepted
+    tags: javascript, test
 
 httpobjects
     status: accepted
@@ -209,12 +230,14 @@ hibernate
 
 velocity
     status: accepted
+    tags: templating
 
 akka
     status: accepted
 
 groovy-for-testing
     status: accepted
+    tags: test
 
 groovy-for-production
     status: outoffavor
@@ -274,6 +297,7 @@ junit
 
 scalatest
     status: accepted
+    tags: test
 
 jackson
     status: accepted
@@ -304,17 +328,21 @@ jquery (for dom manipulation)
 
 qunit
     status: preferred
+    tags: test, javascript
 
 require
     status: preferred
+    tags: javascript
 
 [Tools]
 
 gitlab
     status: experimental
+    tags: scm
 
 gitblit
     status: outoffavor
+    tags: scm
 
 splunk
     status: accepted
@@ -325,12 +353,15 @@ maven2
 
 perforce
     status: outoffavor
+    tags: scm
 
 stash
     status: experimental
+    tags: scm
 
 bower
     status: experimental
+    tags: javascript
 
 selenium
     status: accepted
@@ -343,6 +374,7 @@ vagrant
 
 github-for-open-source-project-hosting
     status: accepted
+    tags: scm
 
 virtualBox
     status: accepted
@@ -376,9 +408,11 @@ jenkins - for CI
 
 qunit-mojo
     status: preferred
+    tags: test, javascript
 
 jshint
     status: preferred
+    tags: test, javascript
 
 nexus
     status: preferred
@@ -400,8 +434,10 @@ supervisor
 
 git
     status: preferred
+    tags: scm
 
 [Platforms (and dbs)]
+
 solr
     status: outoffavor
 
@@ -455,6 +491,7 @@ kestrel
 
 nodejs - for tools
     status: accepted
+    tags: javascript
 
 zookeeper
     status: accepted
