@@ -29,6 +29,7 @@ JS Template Observer
 "NaN style" JS Components
     status: accepted
     tags: javascript
+    notes: A style of component-oriented js UI development, introduced by team NaN.
 
 single responsibility principle
     status: preferred
