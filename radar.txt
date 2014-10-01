@@ -1,7 +1,7 @@
 [Techniques]
 cake pattern
     status: outoffavor
-    notes: there are better ways to do "dependency injection"
+    notes: There are better ways to do "dependency injection".
 
 XML-RPC/SOAP
     status: outoffavor
@@ -56,6 +56,7 @@ machine learning
 
 promises over callbacks
     status: accepted
+    tags: javascript
 
 branch-by-abstraction
     status: accepted
@@ -237,14 +238,15 @@ akka
 
 groovy-for-testing
     status: accepted
-    tags: test
+    tags: test, groovy
 
 groovy-for-production
     status: outoffavor
+    tags: groovy
 
 spock
     status: accepted
-    tags: test
+    tags: test, groovy
 
 jmock
     status: accepted
@@ -325,6 +327,7 @@ python - accepted for tooling
 
 jquery (for dom manipulation)
     status: preferred
+    tags: javascript
 
 qunit
     status: preferred
