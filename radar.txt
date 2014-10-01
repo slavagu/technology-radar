@@ -84,6 +84,7 @@ automation
 
 continuous-delivery
     status: preferred
+    tags: build
 
 TDD (test-first)
     status: preferred
@@ -335,7 +336,7 @@ qunit
 
 require
     status: preferred
-    tags: javascript
+    tags: javascript, build
 
 [Tools]
 
@@ -353,6 +354,7 @@ splunk
 
 maven2
     status: outoffavor
+    tags: build
 
 perforce
     status: outoffavor
@@ -364,7 +366,7 @@ stash
 
 bower
     status: experimental
-    tags: javascript
+    tags: javascript, build
 
 selenium
     status: accepted
@@ -408,10 +410,11 @@ warden
 
 jenkins - for CI
     status: preferred
+    tags: build
 
 qunit-mojo
     status: preferred
-    tags: test, javascript
+    tags: test, javascript, build
 
 jshint
     status: preferred
@@ -425,12 +428,14 @@ jaws
 
 maven3
     status: preferred
+    tags: build
 
 simon
     status: preferred
 
 speedyG for e2e execution in the CD pipeline
     status: preferred
+    tags: test
 
 supervisor
     status: preferred
