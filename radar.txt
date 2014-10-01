@@ -139,6 +139,7 @@ flex
 
 pl/sql
     status: outoffavor
+    tags: languages
 
 joyride js
     status: outoffavor
@@ -168,7 +169,7 @@ xml
 
 pig
     status: outoffavor
-    tags: jvm
+    tags: jvm, languages
 
 grails
     status: outoffavor
@@ -177,13 +178,15 @@ grails
 
 perl
     status: outoffavor
+    tags: languages
 
 ruby
     status: outoffavor
+    tags: languages
 
 java8
     status: experimental
-    tags: jvm
+    tags: jvm, languages
 
 react
     status: experimental
@@ -199,7 +202,7 @@ angular
 
 clojure
     status: experimental
-    tags: jvm
+    tags: jvm, languages
 
 intro.js
     status: accepted
@@ -226,7 +229,7 @@ handlebars
 
 j2se6
     status: accepted
-    tags: jvm
+    tags: jvm, languages
 
 backbone
     status: accepted
@@ -258,15 +261,19 @@ akka
 
 scala
     status: accepted
-    tags: jvm
+    tags: jvm, languages
 
-groovy-for-testing
+javascript
     status: accepted
-    tags: test, groovy, jvm
+    tags: javascript, languages
 
-groovy-for-production
+groovy (for-testing)
+    status: accepted
+    tags: test, groovy, jvm, languages
+
+groovy (for-production)
     status: outoffavor
-    tags: groovy, jvm
+    tags: groovy, jvm, languages
 
 spock
     status: accepted
@@ -294,6 +301,7 @@ jetty-as-a-library
 
 ObjectiveC
     status: accepted
+    tags: languages
 
 mahout
     status: accepted
@@ -301,7 +309,7 @@ mahout
 
 coffeescript
     status: accepted
-    tags: javascript
+    tags: javascript, languages
 
 yammer metrics
     status: accepted
@@ -317,7 +325,7 @@ eh-cache
 
 java7
     status: accepted
-    tags: jvm
+    tags: jvm, languages
 
 hamcrest-matchers
     status: accepted
@@ -357,8 +365,9 @@ spring-security
     status: accepted
     tags: jvm
 
-python - accepted for tooling
+python (for tooling)
     status: accepted
+    tags: languages
 
 jquery (for dom manipulation)
     status: preferred
@@ -547,5 +556,5 @@ elastic search - for full-text indexing
 
 jvm - for production applications
     status: preferred
-    tags: jvm
+    tags: jvm, languages
 
