@@ -102,6 +102,10 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
+Protocop
+   status: experimental
+   tags: javascript
+
 XML (for REST representations)
     status: outoffavor
     tags: network-api, REST
