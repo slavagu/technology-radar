@@ -102,9 +102,10 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
-Protocop
+protocop
    status: experimental
    tags: javascript
+   notes: runtime, ad-hoc protocol/signature enforcement for javascript (github/cjdev/protocop)
 
 XML (for REST representations)
     status: outoffavor
