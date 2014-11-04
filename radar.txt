@@ -24,11 +24,11 @@ more than one (non-test) jvm language in a maven module
     tags: build, jvm
 
 JS Template Observer
-    status: accepted
+    status: outoffavor
     tags: javascript
 
 "NaN style" JS Components
-    status: accepted
+    status: outoffavor
     tags: javascript
     notes: A style of component-oriented js UI development, introduced by team NaN.
 
@@ -194,8 +194,9 @@ java8
     tags: jvm, languages
 
 react
-    status: experimental
+    status: preferred
     tags: javascript
+    notes: our default UI component technology
 
 finatra
     status: experimental
@@ -236,8 +237,16 @@ j2se6
     status: accepted
     tags: jvm, languages
 
-backbone
+backbone-models
     status: accepted
+    tags: javascript
+
+backbone-router
+    status: accepted
+    tags: javascript
+
+backbone-views
+    status: outoffavor
     tags: javascript
 
 sinon
@@ -374,9 +383,10 @@ python (for tooling)
     status: accepted
     tags: languages
 
-jquery (for dom manipulation)
-    status: preferred
+jquery (except for DOM-manipulation in production)
+    status: accepted
     tags: javascript
+    note: use reactjs for production component dom manipulation
 
 qunit
     status: preferred
