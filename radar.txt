@@ -102,6 +102,11 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
+spark
+   status: accepted
+   tags: hadoop, data-tier, jvm, scala, TODO
+   notes: TODO discuss moving this to preferred in December
+
 protocop
    status: experimental
    tags: javascript
@@ -504,6 +509,11 @@ git
 
 [Platforms (and dbs)]
 
+kafka
+   status: experimental
+   tags: data-tier, TODO
+   notes: Being evaluated as a replacement for flume, custom log transferring/consumption, batch processing of input streams. moving Discuss moving this to preferred in December
+
 solr
     status: outoffavor
 
@@ -537,8 +547,9 @@ resin
     tags: jvm
 
 hadoop map-reduce v2 ("yarn")
-    status: experimental
+    status: outoffavor
     tags: data-tier
+    notes: deprecated in favor of spark
 
 oracle
     status: accepted
@@ -557,8 +568,9 @@ hdfs
     tags: data-tier
 
 hadoop - for distributed map/reduce
-    status: accepted
+    status: outoffavor
     tags: data-tier
+    notes: deprecated in favor of spark
 
 flume
     status: accepted
