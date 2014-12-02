@@ -102,6 +102,11 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
+immutablejs
+   status: experimental
+   tags: javascript, functional, collections
+   notes: Immutable persistent data collections for Javascript which increase efficiency and simplicity.
+
 spark
    status: accepted
    tags: hadoop, data-tier, jvm, scala, TODO
