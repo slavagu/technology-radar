@@ -200,8 +200,12 @@ ruby
     tags: languages
 
 java8
-    status: experimental
+    status: accepted
     tags: jvm, languages
+
+haskell
+    status: experimental
+    tags: languages
 
 react
     status: preferred
@@ -213,7 +217,7 @@ finatra
     tags: jvm
 
 angular
-    status: experimental
+    status: outoffavor
     tags: javascript
 
 clojure
@@ -409,7 +413,7 @@ require
 [Tools]
 
 gitlab
-    status: experimental
+    status: accepted
     tags: scm
 
 gitblit
@@ -428,7 +432,7 @@ perforce
     tags: scm
 
 stash
-    status: experimental
+    status: outoffavor
     tags: scm
 
 bower
