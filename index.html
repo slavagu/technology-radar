@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CJ TechRadar</title>
+    <script src="http://fb.me/react-0.12.2.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+    
+    <style type="text/css">
+        body {
+            font-family:sans-serif;
+        }
+        .category {
+            display:inline-block;
+            width:20%;
+            max-width:20%;
+            margin:20px;
+            vertical-align: top;
+        }
+        .outoffavor {
+            /* color:white;
+            background:rgb(255, 77, 77); */
+            border-color:rgb(255, 77, 77); 
+        }
+        .experimental {
+            /* color:white;
+            background:#ADA8A8; */
+            border-color:#ADA8A8;
+        }
+        
+        .preferred {
+            /* color:white;
+            background:rgb(69, 69, 255); */
+            border-color:rgb(69, 69, 255);
+        }
+        
+        .accepted {
+            /* color:white;
+            background:rgb(22, 160, 22); */
+            border-color:rgb(22, 160, 22);
+        }
+        .techname {
+            padding:5px;
+            /* font-weight:bold; */
+            border-width:0px;
+            border-left-width:10px;
+            border-style:solid;
+            cursor: pointer;
+        }
+        .tags {
+            margin:20px;
+        }
+        .tag {
+            padding:3px;
+            border: 1px solid grey;
+            display:inline-block;
+            margin:3px;
+            border-radius:5px;
+            background:grey;
+            color:white;
+            font-weight:bold;
+        }
+        
+        .tag-button {
+            cursor: pointer;
+        }
+        
+        .tag-enabled {
+            background:blue;
+        }
+        
+        .tag-list {
+            padding:10px;
+        }
+        .items {
+            padding-bottom:30px;
+        }
+        .clearfix:after {
+		    content: ".";
+		    display: block;
+		    clear: both;
+		    visibility: hidden;
+		    line-height: 0;
+		    height: 0;
+		}
+		 
+		.clearfix {
+		    display: inline-block;
+		}
+		
+		.note {
+		  color: #333;
+		  position: relative;
+		  width: 300px;
+		  margin: 0 auto;
+		  padding: 20px;
+		  font-family: Satisfy;
+		  font-size: 1.5em;
+		  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+		  background: #eae672;
+		  -webkit-transform: rotate(2deg);
+		  -moz-transform: rotate(2deg);
+		  -o-transform: rotate(2deg);
+		  -ms-transform: rotate(2deg);
+		  transform: rotate(2deg);
+		}
+		
+		 
+    </style>
+  </head>
+  <body style="valign: top;" >
+    <div id="content"></div>
+    <script type="text/jsx" src="radarview.jsx">
+    </script>
+  </body>
+</html>
