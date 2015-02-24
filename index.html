@@ -118,7 +118,11 @@
         var data = {};
         var currentCategory;
         var currentItem = {};
-        $.get("radar.txt").done(function(response) {
+        $.ajax({
+            type: 'GET',
+            url: 'https://raw.githubusercontent.com/cjdev/technology-radar/master/radar.txt'
+        })
+        .get("radar.txt").done(function(response) {
             var lines = response.split("\n");
             $.each(lines, function(index, line) {
                 if(line.indexOf("[") === 0) {
