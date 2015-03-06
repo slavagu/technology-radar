@@ -6,7 +6,7 @@ cake pattern
 XML-RPC/SOAP
     status: outoffavor
     tags:network-api
-
+    
 REST (RMM Level 1)
     status: outoffavor
     tags: REST, network-api
@@ -229,7 +229,8 @@ intro.js
     tags: javascript
 
 weka
-    status: experimental
+    status: accepted
+    tags: machine learning
 
 underscore (templating)
     status: accepted
@@ -333,7 +334,7 @@ ObjectiveC
 
 mahout
     status: accepted
-    tags: jvm
+    tags: jvm, machine learning
 
 coffeescript
     status: accepted
