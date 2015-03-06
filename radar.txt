@@ -442,6 +442,7 @@ bower
 
 selenium
     status: accepted
+    tags: test
 
 docker
     status: accepted
@@ -526,9 +527,11 @@ kafka
 
 solr
     status: outoffavor
+    tags: full-text search
 
 oracle text (aka context)
     status: outoffavor
+    tags: full-text search
 
 mysql
     status: outoffavor
@@ -598,7 +601,7 @@ zookeeper
 
 elastic search - for full-text indexing
     status: preferred
-    tags:data-tier
+    tags:data-tier,full-text search
 
 jvm - for production applications
     status: preferred
