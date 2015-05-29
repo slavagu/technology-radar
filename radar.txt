@@ -124,10 +124,9 @@ spark
    tags: hadoop, data-tier, jvm, scala, TODO
    notes: TODO discuss moving this to preferred in December
 
-protocop
+tcomb
    status: experimental
-   tags: javascript
-   notes: runtime, ad-hoc protocol/signature enforcement for javascript (github/cjdev/protocop)
+   tags: javascript, ad-hoc protocol/signature enforcement for javascript
 
 XML (for REST representations)
     status: outoffavor
