@@ -219,8 +219,9 @@ react
     notes: our default UI component technology
 
 finatra
-    status: experimental
+    status: outoffavor
     tags: jvm
+    notes: finatra is getting too guicy.  prefer httpobjects instead.
 
 angular
     status: outoffavor
