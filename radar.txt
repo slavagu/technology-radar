@@ -121,7 +121,7 @@ spark
 
 tcomb
    status: experimental
-   tags: javascript, ad-hoc protocol/signature enforcement for javascript
+   tags: javascript
 
 XML (for REST representations)
     status: outoffavor
