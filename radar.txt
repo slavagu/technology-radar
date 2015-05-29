@@ -532,9 +532,14 @@ git
 [Platforms (and dbs)]
 
 kafka
-   status: experimental
-   tags: data-tier, TODO
-   notes: Being evaluated as a replacement for flume, custom log transferring/consumption, batch processing of input streams. moving Discuss moving this to preferred in December
+   status: accepted
+   tags: data-tier
+   notes: replaces flume, custom log transferring/consumption (e.g. consumelog), storing & transporting event streams
+
+kafka-rx
+   status: accepted
+   tags: data-tier, reactive
+   notes: http://github.com/cjdev/kafka-rx
 
 solr
     status: outoffavor
@@ -597,7 +602,7 @@ hadoop - for distributed map/reduce
     notes: deprecated in favor of spark
 
 flume
-    status: accepted
+    status: outoffavor
     tags: data-tier
 
 kestrel
