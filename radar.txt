@@ -102,6 +102,18 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
+d3-for-charting
+   status: accepted
+   tags: javascript, visualization
+
+jqplot
+   status: accepted
+   tags: javascript, visualization
+
+amcharts
+   status: experimental
+   tags: javascript, visualization
+
 immutablejs
    status: experimental
    tags: javascript, functional, collections
