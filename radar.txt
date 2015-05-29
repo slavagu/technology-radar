@@ -234,6 +234,10 @@ haskell (for tooling)
     status: accepted
     tags: languages
 
+rust (for tooling)
+    status: experimental
+    tags: languages
+
 intro.js
     status: accepted
     tags: javascript
