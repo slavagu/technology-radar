@@ -268,9 +268,10 @@ handlebars
     status: accepted
     tags: templating, javascript
 
-j2se6
-    status: accepted
+java6
+    status: outoffavor
     tags: jvm, languages
+    notes: java6 code & bytecode is acceptable where interoperability outside of CJ is a requirement 
 
 backbone-models
     status: accepted
