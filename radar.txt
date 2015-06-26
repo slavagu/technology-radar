@@ -128,8 +128,9 @@ spark
    notes: TODO discuss moving this to preferred in December
 
 tcomb
-   status: experimental
+   status: outoffavor
    tags: javascript
+   notes: lost interest
 
 XML (for REST representations)
     status: outoffavor
