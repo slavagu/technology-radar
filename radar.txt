@@ -114,6 +114,10 @@ jqplot
    status: accepted
    tags: javascript, visualization
 
+zoomdata
+   status: experimental
+   tags: javascript, visualization
+
 amcharts
    status: experimental
    tags: javascript, visualization
@@ -208,10 +212,6 @@ perl
 ruby
     status: outoffavor
     tags: languages
-
-java8
-    status: accepted
-    tags: jvm, languages
 
 haskell
     status: experimental
@@ -372,6 +372,11 @@ eh-cache
     tags: jvm
 
 java7
+    status: outoffavor
+    tags: jvm, languages
+    notes: java7 and earlier code & bytecode is acceptable where interoperability outside of CJ is a requirement 
+
+java8
     status: accepted
     tags: jvm, languages
 
