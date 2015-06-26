@@ -102,6 +102,10 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
+typescript
+   status: experimental
+   tags: javascript
+
 d3-for-charting
    status: accepted
    tags: javascript, visualization
