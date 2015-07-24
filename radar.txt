@@ -22,6 +22,7 @@ REST (RMM Level 3)
 more than one (non-test) jvm language in a maven module
     status: experimental
     tags: build, jvm
+    notes: [sponsor: stu]
 
 JS Template Observer
     status: outoffavor
@@ -105,21 +106,23 @@ pair programming
 typescript
    status: experimental
    tags: javascript
+   notes: [sponsors: sean, dron]
 
 d3-for-charting
-   status: accepted
+   status: outoffavor
    tags: javascript, visualization
 
 jqplot
-   status: accepted
+   status: outoffavor
    tags: javascript, visualization
 
 zoomdata
    status: experimental
    tags: javascript, visualization
+   notes: [sponsor: chris]
 
 amcharts
-   status: experimental
+   status: preferred
    tags: javascript, visualization
 
 spark
@@ -217,6 +220,7 @@ ruby
 haskell
     status: experimental
     tags: languages
+    notes: [sponsors: greg, david siefert]
 
 react
     status: preferred
@@ -243,6 +247,7 @@ haskell (for tooling)
 rust (for tooling)
     status: experimental
     tags: languages
+    notes: [sponsor: justin]
 
 intro.js
     status: accepted
@@ -318,7 +323,7 @@ javascript
     tags: javascript, languages
 
 groovy (for-testing)
-    status: accepted
+    status: outoffavor
     tags: test, groovy, jvm, languages
 
 groovy (for-production)
@@ -326,7 +331,7 @@ groovy (for-production)
     tags: groovy, jvm, languages
 
 spock
-    status: accepted
+    status: outoffavor
     tags: test, groovy, jvm
 
 jmock
@@ -469,6 +474,7 @@ gulp
 bower
     status: experimental
     tags: javascript, build
+    notes: [sponsor: thomas]
 
 selenium
     status: accepted
