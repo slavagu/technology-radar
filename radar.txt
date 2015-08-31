@@ -244,11 +244,6 @@ haskell (for tooling)
     status: accepted
     tags: languages
 
-rust (for tooling)
-    status: experimental
-    tags: languages
-    notes: [sponsor: justin]
-
 intro.js
     status: accepted
     tags: javascript
@@ -472,9 +467,9 @@ gulp
     tags: javascript, build
 
 bower
-    status: experimental
+    status: outoffavor
     tags: javascript, build
-    notes: [sponsor: thomas]
+    notes: we're more interested in using npm
 
 selenium
     status: accepted
