@@ -525,6 +525,11 @@ jshint
     status: preferred
     tags: test, javascript, build
 
+eslint
+    status: experimental
+    tags: lint, javascript
+    notes: [sponsor: fhenders]
+
 nexus
     status: preferred
 
