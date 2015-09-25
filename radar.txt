@@ -358,7 +358,7 @@ mahout
     tags: jvm, machine learning
 
 coffeescript
-    status: accepted
+    status: outoffavor
     tags: javascript, languages
 
 yammer metrics
