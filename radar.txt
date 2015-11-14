@@ -19,11 +19,6 @@ REST (RMM Level 3)
     status: accepted
     tags: REST, network-api
 
-more than one (non-test) jvm language in a maven module
-    status: experimental
-    tags: build, jvm
-    notes: [sponsor: stu]
-
 JS Template Observer
     status: outoffavor
     tags: javascript
@@ -103,11 +98,6 @@ pair programming
 
 [Languages and Frameworks/Libraries]
 
-typescript
-   status: experimental
-   tags: javascript
-   notes: [sponsors: sean, dron]
-
 d3-for-charting
    status: outoffavor
    tags: javascript, visualization
@@ -119,7 +109,7 @@ jqplot
 zoomdata
    status: experimental
    tags: javascript, visualization
-   notes: [sponsor: chris]
+   notes: [sponsor: nedda]
 
 amcharts
    status: preferred
@@ -220,7 +210,7 @@ ruby
 haskell
     status: experimental
     tags: languages
-    notes: [sponsors: greg, david siefert]
+    notes: [sponsors: Lambda Jam]
 
 react
     status: preferred
@@ -522,13 +512,12 @@ qunit-mojo
     tags: test, javascript, build
 
 jshint
-    status: preferred
+    status: outoffavor 
     tags: test, javascript, build
 
 eslint
-    status: experimental
+    status: preferred
     tags: lint, javascript
-    notes: [sponsor: fhenders]
 
 nexus
     status: preferred
