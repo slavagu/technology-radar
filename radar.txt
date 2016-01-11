@@ -106,11 +106,6 @@ jqplot
    status: outoffavor
    tags: javascript, visualization
 
-zoomdata
-   status: experimental
-   tags: javascript, visualization
-   notes: [sponsor: nedda]
-
 amcharts
    status: preferred
    tags: javascript, visualization
@@ -428,6 +423,11 @@ require
     tags: javascript, build
 
 [Tools]
+
+webpack
+    status: experimental
+    tags: javascript, bundler
+    notes: [sponsor: franklin]
 
 gitlab
     status: accepted
