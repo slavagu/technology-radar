@@ -424,6 +424,11 @@ require
 
 [Tools]
 
+mochajs
+    status: experimental
+    tags: javascript, tools, build
+    notes: [sponsor: aj]
+
 webpack
     status: experimental
     tags: javascript, bundler
