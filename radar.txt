@@ -203,9 +203,8 @@ ruby
     tags: languages
 
 haskell
-    status: experimental
+    status: accepted
     tags: languages
-    notes: [sponsors: Lambda Jam]
 
 react
     status: preferred
