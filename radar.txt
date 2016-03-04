@@ -224,6 +224,10 @@ clojure (for tooling)
     status: accepted
     tags: jvm, languages
 
+clojure
+    status: experimental
+    tags: jvm, languages
+    
 haskell (for tooling)
     status: accepted
     tags: languages
