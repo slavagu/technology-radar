@@ -433,9 +433,13 @@ mochajs
     notes: [sponsor: aj]
 
 webpack
-    status: experimental
+    status: accepted
     tags: javascript, bundler
-    notes: [sponsor: franklin]
+
+enzyme
+    status: experimental
+    tags: javascript, test
+    notes: [sponsor: aj]
 
 gitlab
     status: accepted
