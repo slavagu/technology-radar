@@ -96,6 +96,9 @@ dependency injection over service locator
 pair programming
     status: preferred
 
+one unit testing library per application
+    status: preferred
+
 [Languages and Frameworks/Libraries]
 
 d3-for-charting
