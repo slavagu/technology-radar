@@ -227,6 +227,7 @@ clojure (for tooling)
 clojure
     status: experimental
     tags: jvm, languages
+    notes: [sponsor: insights]
     
 haskell (for tooling)
     status: accepted
@@ -418,7 +419,7 @@ jquery (except for DOM-manipulation in production)
     note: use reactjs for production component dom manipulation
 
 qunit
-    status: preferred
+    status: accepted
     tags: test, javascript
 
 require
@@ -428,18 +429,16 @@ require
 [Tools]
 
 mochajs
-    status: experimental
+    status: accepted
     tags: javascript, tools, build
-    notes: [sponsor: aj]
 
 webpack
     status: accepted
     tags: javascript, bundler
 
 enzyme
-    status: experimental
+    status: accepted
     tags: javascript, test
-    notes: [sponsor: aj]
 
 gitlab
     status: accepted
