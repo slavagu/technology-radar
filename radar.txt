@@ -416,6 +416,14 @@ python (for tooling)
     status: accepted
     tags: languages
 
+python (machine learning)
+    status: experimental
+    tags: languages
+
+R (machine learning)
+    status: experimental
+    tags: languages
+
 jquery (except for DOM-manipulation in production)
     status: accepted
     tags: javascript
