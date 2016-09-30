@@ -118,6 +118,20 @@ spark
    tags: hadoop, data-tier, jvm, scala, TODO
    notes: TODO discuss moving this to preferred in December
 
+ramda
+  status: experimental
+  tags: javascript
+  notes: [sponsor: fhenderson]
+
+redux
+  status: experimental
+  tags: javascript
+  notes: [sponsor: fhenderson]
+
+thrift
+  status: experimental
+  notes: [sponsor: jemmer]
+
 tcomb
    status: outoffavor
    tags: javascript
@@ -223,18 +237,17 @@ angular
     status: outoffavor
     tags: javascript
 
-clojure (for tooling)
+clojure
     status: accepted
     tags: jvm, languages
-
-clojure
-    status: experimental
-    tags: jvm, languages
     notes: [sponsor: insights]
+<<<<<<< HEAD
 
 haskell (for tooling)
     status: accepted
     tags: languages
+=======
+>>>>>>> adding changes as discussed from MEAM 9/30
 
 intro.js
     status: accepted
@@ -257,7 +270,7 @@ bootstrap-css
     tags: javascript
 
 handlebars
-    status: accepted
+    status: outoffavor
     tags: templating, javascript
 
 java6
@@ -266,11 +279,11 @@ java6
     notes: java6 code & bytecode is acceptable where interoperability outside of CJ is a requirement
 
 backbone-models
-    status: accepted
+    status: outoffavor
     tags: javascript
 
 backbone-router
-    status: accepted
+    status: outoffavor
     tags: javascript
 
 backbone-views
