@@ -6,7 +6,7 @@ cake pattern
 XML-RPC/SOAP
     status: outoffavor
     tags:network-api
-    
+
 REST (RMM Level 1)
     status: outoffavor
     tags: REST, network-api
@@ -231,7 +231,7 @@ clojure
     status: experimental
     tags: jvm, languages
     notes: [sponsor: insights]
-    
+
 haskell (for tooling)
     status: accepted
     tags: languages
@@ -263,7 +263,7 @@ handlebars
 java6
     status: outoffavor
     tags: jvm, languages
-    notes: java6 code & bytecode is acceptable where interoperability outside of CJ is a requirement 
+    notes: java6 code & bytecode is acceptable where interoperability outside of CJ is a requirement
 
 backbone-models
     status: accepted
@@ -368,7 +368,7 @@ eh-cache
 java7
     status: outoffavor
     tags: jvm, languages
-    notes: java7 and earlier code & bytecode is acceptable where interoperability outside of CJ is a requirement 
+    notes: java7 and earlier code & bytecode is acceptable where interoperability outside of CJ is a requirement
 
 java8
     status: accepted
@@ -396,8 +396,8 @@ lift-json
 
 jquery-ui (datepickers)
     status: outoffavor
-    
-jquery-ui 
+
+jquery-ui
     status: outoffavor
 
 springmvc
@@ -534,7 +534,7 @@ qunit-mojo
     tags: test, javascript, build
 
 jshint
-    status: outoffavor 
+    status: outoffavor
     tags: test, javascript, build
 
 eslint
@@ -564,6 +564,11 @@ supervisor
 git
     status: preferred
     tags: scm
+
+kubernetes
+    status: experimental
+    tags: docker, cloud
+    notes: sponsored by ad systems
 
 [Platforms (and dbs)]
 
@@ -658,4 +663,3 @@ elastic search - for full-text indexing
 jvm - for production applications
     status: preferred
     tags: jvm, languages
-
