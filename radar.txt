@@ -241,13 +241,6 @@ clojure
     status: accepted
     tags: jvm, languages
     notes: [sponsor: insights]
-<<<<<<< HEAD
-
-haskell (for tooling)
-    status: accepted
-    tags: languages
-=======
->>>>>>> adding changes as discussed from MEAM 9/30
 
 intro.js
     status: accepted
