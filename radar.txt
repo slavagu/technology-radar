@@ -425,10 +425,12 @@ python (for tooling)
 python (machine learning)
     status: experimental
     tags: languages
+    notes: [sponsor: jxv]
 
 R (machine learning)
     status: experimental
     tags: languages
+    notes: [sponsor: jxv]
 
 jquery (except for DOM-manipulation in production)
     status: accepted
@@ -574,7 +576,7 @@ git
 kubernetes
     status: experimental
     tags: docker, cloud
-    notes: sponsored by ad systems
+    notes: [sponsor: ad systems]
 
 [Platforms (and dbs)]
 
