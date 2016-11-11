@@ -119,9 +119,8 @@ spark
    notes: TODO discuss moving this to preferred in December
 
 ramda
-  status: experimental
+  status: accepted
   tags: javascript
-  notes: [sponsor: fhenderson]
 
 redux
   status: experimental
@@ -255,7 +254,7 @@ underscore (templating)
     tags: javascript, templating
 
 underscore
-    status: accepted
+    status: outoffavor 
     tags: javascript
 
 bootstrap-css
@@ -423,11 +422,6 @@ python (for tooling)
     tags: languages
 
 python (machine learning)
-    status: experimental
-    tags: languages
-    notes: [sponsor: jxv]
-
-R (machine learning)
     status: experimental
     tags: languages
     notes: [sponsor: jxv]
