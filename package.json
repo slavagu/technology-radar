@@ -1,0 +1,14 @@
+{
+  "name": "technology-radar",
+  "version": "1.0.0",
+  "description": "CJ Engineering Technology Radar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjdev/technology-radar.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjdev/technology-radar/issues"
+  },
+  "homepage": "https://github.com/cjdev/technology-radar#readme"
+}
