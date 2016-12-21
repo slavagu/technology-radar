@@ -127,8 +127,13 @@ redux
   tags: javascript
   notes: [sponsor: fhenderson]
 
-thrift
+grpc
   status: experimental
+  notes: [sponsor: jemmer]
+  
+go (for grpc-gateway)
+  status: experimental
+  tags: languages
   notes: [sponsor: jemmer]
 
 tcomb
