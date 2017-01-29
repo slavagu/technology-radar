@@ -123,14 +123,13 @@ ramda
   tags: javascript
 
 redux
-  status: experimental
+  status: accepted
   tags: javascript
-  notes: [sponsor: fhenderson]
 
 grpc
   status: experimental
   notes: [sponsor: jemmer]
-  
+
 go (for grpc-gateway)
   status: experimental
   tags: languages
@@ -264,7 +263,7 @@ underscore (templating)
     tags: javascript, templating
 
 underscore
-    status: outoffavor 
+    status: outoffavor
     tags: javascript
 
 bootstrap-css
