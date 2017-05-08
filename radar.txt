@@ -451,10 +451,12 @@ require
 C++ - for systems programming
     status: experimental
     tags: languages, system
+    notes: [sponsor: gwiley]
 
 Rust - for systems programming
     status: experimental
     tags: languages, system
+    notes: [sponsor: gwiley]
 
 
 
