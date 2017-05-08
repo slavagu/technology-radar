@@ -448,6 +448,16 @@ require
     status: preferred
     tags: javascript, build
 
+C++ - for systems programming
+    status: experimental
+    tags: languages, system
+
+Rust - for systems programming
+    status: experimental
+    tags: languages, system
+
+
+
 [Tools]
 
 mochajs
@@ -674,14 +684,6 @@ elastic search - for full-text indexing
 jvm - for production applications
     status: preferred
     tags: jvm, languages
-
-C++ - for systems programming
-    status: experimental
-    tags: languages, system
-
-Rust - for systems programming
-    status: experimental
-    tags: languages, system
 
 
 
