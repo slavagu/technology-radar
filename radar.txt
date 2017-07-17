@@ -433,7 +433,7 @@ python (for tooling)
 python (machine learning)
     status: experimental
     tags: languages
-    notes: [sponsor: jxv]
+    notes: [sponsor: lhurley]
 
 jquery (except for DOM-manipulation in production)
     status: accepted
