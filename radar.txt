@@ -226,11 +226,6 @@ haskell
     status: accepted
     tags: languages
 
-racket
-    status: experimental
-    tags: languages
-    notes: [sponsor: lambdajam]
-
 react
     status: preferred
     tags: javascript
