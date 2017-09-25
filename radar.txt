@@ -453,7 +453,15 @@ Rust - for systems programming
     tags: languages, system
     notes: [sponsor: gwiley]
 
+Jest
+    status: experimental
+    tags: languages, system
+    notes: [sponsor: fhenderson]
 
+styled-components
+    status: experimental
+    tags: languages, system
+    notes: [sponsor: fhenderson]
 
 [Tools]
 
