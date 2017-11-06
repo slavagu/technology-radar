@@ -245,11 +245,6 @@ clojure
     tags: jvm, languages
     notes: [sponsor: insights]
 
-kotlin
-    status: experimental
-    tags: jvm, languages
-    notes: [sponsor: DBAs]
-
 intro.js
     status: accepted
     tags: javascript
