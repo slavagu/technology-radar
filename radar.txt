@@ -126,13 +126,8 @@ redux
   status: accepted
   tags: javascript
 
-grpc
+graphql
   status: experimental
-  notes: [sponsor: jemmer]
-
-go (for grpc-gateway)
-  status: experimental
-  tags: languages
   notes: [sponsor: jemmer]
 
 tcomb
