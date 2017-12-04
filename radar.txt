@@ -101,10 +101,6 @@ one unit testing library per application
 
 [Languages and Frameworks/Libraries]
 
-d3-for-charting
-   status: outoffavor
-   tags: javascript, visualization
-
 jqplot
    status: outoffavor
    tags: javascript, visualization
@@ -123,7 +119,7 @@ ramda
   tags: javascript
 
 redux
-  status: accepted
+  status: preferred
   tags: javascript
 
 graphql
@@ -248,10 +244,6 @@ weka
     status: accepted
     tags: machine learning
 
-underscore (templating)
-    status: accepted
-    tags: javascript, templating
-
 underscore
     status: outoffavor
     tags: javascript
@@ -297,7 +289,11 @@ hibernate
     status: accepted
     tags: jvm, data-tier
 
-velocity
+velocity (for frontend)
+    status: outoffavor
+    tags: templating
+
+velocity (non-frontend)
     status: accepted
     tags: templating
 
@@ -398,9 +394,6 @@ lift-json
     status: accepted
     tags: jvm
 
-jquery-ui (datepickers)
-    status: outoffavor
-
 jquery-ui
     status: outoffavor
 
@@ -425,42 +418,41 @@ python (machine learning)
     tags: languages
     notes: [sponsor: lhurley]
 
-jquery (except for DOM-manipulation in production)
-    status: accepted
+jquery
+    status: outoffavor
     tags: javascript
-    note: use reactjs for production component dom manipulation
+    note: We believe all uses of jquery can be handled natively or with other accepted libs
+
+require
+    status: outoffavor
+    tags: javascript, build
+
+styled-components
+    status: accepted
+    tags: javascript, css
+
+[Tools]
 
 qunit
     status: accepted
-    tags: test, javascript
+    tags: javascript, test
 
-require
-    status: preferred
-    tags: javascript, build
-
-Jest
-    status: experimental
-    tags: languages, system
-    notes: [sponsor: fhenderson]
-
-styled-components
-    status: experimental
-    tags: languages, system
-    notes: [sponsor: fhenderson]
-
-[Tools]
+jest
+    status: accepted
+    tags: javascript, test
 
 mochajs
     status: accepted
     tags: javascript, tools, build
 
+enzyme
+    status: accepted
+    tags: javascript, test
+
 webpack
     status: accepted
     tags: javascript, bundler
 
-enzyme
-    status: accepted
-    tags: javascript, test
 
 gitlab
     status: accepted
