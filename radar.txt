@@ -441,6 +441,10 @@ purescript (Frontend)
     tags: languages
     notes: [sponsor: gwiley]
     
+OWASP java-html-sanitizer - For sanitizing user input
+    status: experimental
+    tags: security  
+    notes: [sponser: dr0n]    
   
 [Tools]
 
@@ -677,6 +681,4 @@ elastic search - for full-text indexing
 jvm - for production applications
     status: preferred
     tags: jvm, languages
-
-
 
